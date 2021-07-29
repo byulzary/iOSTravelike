@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "transparent-background-aeroplane-icon-11549899313fhkpvs6hjz.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

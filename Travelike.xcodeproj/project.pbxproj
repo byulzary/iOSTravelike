@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A3E137A26B055C400DB29CF /* TravelikeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3E137926B055C400DB29CF /* TravelikeApp.swift */; };
+		1A3E137C26B055C400DB29CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3E137B26B055C400DB29CF /* ContentView.swift */; };
+		1A3E137E26B055C500DB29CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A3E137D26B055C500DB29CF /* Assets.xcassets */; };
+		1A3E138126B055C500DB29CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A3E138026B055C500DB29CF /* Preview Assets.xcassets */; };
+		1A3E138926B0575A00DB29CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A3E138826B0575A00DB29CF /* LaunchScreen.storyboard */; };
+		1A3E138B26B05CA900DB29CF /* TravelikeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3E138A26B05CA900DB29CF /* TravelikeModel.swift */; };
+		1A3E138E26B05D5100DB29CF /* TravelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3E138D26B05D5100DB29CF /* TravelData.swift */; };
+		1A3E139226B064EE00DB29CF /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A3E139126B064EE00DB29CF /* CardView.swift */; };
+		1A570FC726B1616A0072F603 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A570FC626B1616A0072F603 /* HeaderView.swift */; };
+		1A570FC926B164EE0072F603 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A570FC826B164EE0072F603 /* FooterView.swift */; };
+		1A570FCC26B168190072F603 /* HeaderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A570FCB26B168190072F603 /* HeaderComponent.swift */; };
+		1A570FCE26B169160072F603 /* GuideComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A570FCD26B169160072F603 /* GuideComponent.swift */; };
+		1A570FD026B16BCE0072F603 /* GuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A570FCF26B16BCE0072F603 /* GuideView.swift */; };
+		1A570FD226B1750A0072F603 /* informationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A570FD126B1750A0072F603 /* informationView.swift */; };
+		1A570FD426B175D50072F603 /* TitleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A570FD326B175D50072F603 /* TitleModifier.swift */; };
+		1A570FD726B178090072F603 /* ButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A570FD626B178090072F603 /* ButtonModifier.swift */; };
+		1A570FD926B18FBD0072F603 /* SymbolModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A570FD826B18FBD0072F603 /* SymbolModifier.swift */; };
+		1A570FDE26B19B980072F603 /* CardTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A570FDD26B19B980072F603 /* CardTransition.swift */; };
+		1A570FE626B1A9DF0072F603 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A570FE526B1A9DF0072F603 /* MapViewController.swift */; };
+		1A570FE826B1ACDA0072F603 /* DesMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A570FE726B1ACDA0072F603 /* DesMapView.swift */; };
+		1A570FEB26B1B1020072F603 /* FavoritesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A570FEA26B1B1020072F603 /* FavoritesData.swift */; };
+		1A570FED26B1BF4E0072F603 /* FavoritesStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A570FEC26B1BF4E0072F603 /* FavoritesStoryBoard.storyboard */; };
+		1A570FEF26B1BFBA0072F603 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A570FEE26B1BFBA0072F603 /* CollectionViewController.swift */; };
+		1A570FF126B1C23F0072F603 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A570FF026B1C23F0072F603 /* CollectionViewCell.swift */; };
+		1A57100226B1DDF30072F603 /* ASCollectionView in Frameworks */ = {isa = PBXBuildFile; productRef = 1A57100126B1DDF30072F603 /* ASCollectionView */; };
+		1A75208026B2D481005BCEE1 /* FavsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A75207F26B2D481005BCEE1 /* FavsView.swift */; };
+		1A75208226B2EE9B005BCEE1 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A75208126B2EE9B005BCEE1 /* MapView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1A570FFF26B1DCCC0072F603 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1A3E137626B055C400DB29CF /* Travelike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Travelike.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A3E137926B055C400DB29CF /* TravelikeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelikeApp.swift; sourceTree = "<group>"; };
+		1A3E137B26B055C400DB29CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1A3E137D26B055C500DB29CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A3E138026B055C500DB29CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1A3E138226B055C500DB29CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A3E138826B0575A00DB29CF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A3E138A26B05CA900DB29CF /* TravelikeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelikeModel.swift; sourceTree = "<group>"; };
+		1A3E138D26B05D5100DB29CF /* TravelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelData.swift; sourceTree = "<group>"; };
+		1A3E139126B064EE00DB29CF /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		1A570FC626B1616A0072F603 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		1A570FC826B164EE0072F603 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		1A570FCB26B168190072F603 /* HeaderComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderComponent.swift; sourceTree = "<group>"; };
+		1A570FCD26B169160072F603 /* GuideComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideComponent.swift; sourceTree = "<group>"; };
+		1A570FCF26B16BCE0072F603 /* GuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideView.swift; sourceTree = "<group>"; };
+		1A570FD126B1750A0072F603 /* informationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = informationView.swift; sourceTree = "<group>"; };
+		1A570FD326B175D50072F603 /* TitleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleModifier.swift; sourceTree = "<group>"; };
+		1A570FD626B178090072F603 /* ButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModifier.swift; sourceTree = "<group>"; };
+		1A570FD826B18FBD0072F603 /* SymbolModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolModifier.swift; sourceTree = "<group>"; };
+		1A570FDD26B19B980072F603 /* CardTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTransition.swift; sourceTree = "<group>"; };
+		1A570FE526B1A9DF0072F603 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		1A570FE726B1ACDA0072F603 /* DesMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesMapView.swift; sourceTree = "<group>"; };
+		1A570FEA26B1B1020072F603 /* FavoritesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesData.swift; sourceTree = "<group>"; };
+		1A570FEC26B1BF4E0072F603 /* FavoritesStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FavoritesStoryBoard.storyboard; sourceTree = "<group>"; };
+		1A570FEE26B1BFBA0072F603 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		1A570FF026B1C23F0072F603 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		1A75207F26B2D481005BCEE1 /* FavsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavsView.swift; sourceTree = "<group>"; };
+		1A75208126B2EE9B005BCEE1 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A3E137326B055C400DB29CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A57100226B1DDF30072F603 /* ASCollectionView in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A3E136D26B055C400DB29CF = {
+			isa = PBXGroup;
+			children = (
+				1A3E137826B055C400DB29CF /* Travelike */,
+				1A3E137726B055C400DB29CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A3E137726B055C400DB29CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A3E137626B055C400DB29CF /* Travelike.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A3E137826B055C400DB29CF /* Travelike */ = {
+			isa = PBXGroup;
+			children = (
+				1A570FDA26B19B4C0072F603 /* Extension */,
+				1A570FD526B176D00072F603 /* Modifiers */,
+				1A3E139026B063B500DB29CF /* View */,
+				1A570FCA26B168060072F603 /* Component */,
+				1A3E138F26B05D5600DB29CF /* Data */,
+				1A3E138C26B05D0700DB29CF /* Model */,
+				1A3E138826B0575A00DB29CF /* LaunchScreen.storyboard */,
+				1A3E137926B055C400DB29CF /* TravelikeApp.swift */,
+				1A3E137D26B055C500DB29CF /* Assets.xcassets */,
+				1A3E138226B055C500DB29CF /* Info.plist */,
+				1A3E137F26B055C500DB29CF /* Preview Content */,
+				1A570FE526B1A9DF0072F603 /* MapViewController.swift */,
+				1A570FEC26B1BF4E0072F603 /* FavoritesStoryBoard.storyboard */,
+				1A570FEE26B1BFBA0072F603 /* CollectionViewController.swift */,
+				1A570FF026B1C23F0072F603 /* CollectionViewCell.swift */,
+			);
+			path = Travelike;
+			sourceTree = "<group>";
+		};
+		1A3E137F26B055C500DB29CF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1A3E138026B055C500DB29CF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1A3E138C26B05D0700DB29CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1A3E138A26B05CA900DB29CF /* TravelikeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1A3E138F26B05D5600DB29CF /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				1A3E138D26B05D5100DB29CF /* TravelData.swift */,
+				1A570FEA26B1B1020072F603 /* FavoritesData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		1A3E139026B063B500DB29CF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1A3E137B26B055C400DB29CF /* ContentView.swift */,
+				1A3E139126B064EE00DB29CF /* CardView.swift */,
+				1A570FC626B1616A0072F603 /* HeaderView.swift */,
+				1A570FC826B164EE0072F603 /* FooterView.swift */,
+				1A570FCF26B16BCE0072F603 /* GuideView.swift */,
+				1A570FD126B1750A0072F603 /* informationView.swift */,
+				1A570FE726B1ACDA0072F603 /* DesMapView.swift */,
+				1A75207F26B2D481005BCEE1 /* FavsView.swift */,
+				1A75208126B2EE9B005BCEE1 /* MapView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1A570FCA26B168060072F603 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				1A570FCB26B168190072F603 /* HeaderComponent.swift */,
+				1A570FCD26B169160072F603 /* GuideComponent.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		1A570FD526B176D00072F603 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				1A570FD326B175D50072F603 /* TitleModifier.swift */,
+				1A570FD626B178090072F603 /* ButtonModifier.swift */,
+				1A570FD826B18FBD0072F603 /* SymbolModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		1A570FDA26B19B4C0072F603 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1A570FDD26B19B980072F603 /* CardTransition.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A3E137526B055C400DB29CF /* Travelike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A3E138526B055C500DB29CF /* Build configuration list for PBXNativeTarget "Travelike" */;
+			buildPhases = (
+				1A3E137226B055C400DB29CF /* Sources */,
+				1A3E137326B055C400DB29CF /* Frameworks */,
+				1A3E137426B055C400DB29CF /* Resources */,
+				1A570FFF26B1DCCC0072F603 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Travelike;
+			packageProductDependencies = (
+				1A57100126B1DDF30072F603 /* ASCollectionView */,
+			);
+			productName = Travelike;
+			productReference = 1A3E137626B055C400DB29CF /* Travelike.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A3E136E26B055C400DB29CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					1A3E137526B055C400DB29CF = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 1A3E137126B055C400DB29CF /* Build configuration list for PBXProject "Travelike" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A3E136D26B055C400DB29CF;
+			packageReferences = (
+				1A57100026B1DDF30072F603 /* XCRemoteSwiftPackageReference "ASCollectionView" */,
+			);
+			productRefGroup = 1A3E137726B055C400DB29CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A3E137526B055C400DB29CF /* Travelike */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A3E137426B055C400DB29CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A3E138126B055C500DB29CF /* Preview Assets.xcassets in Resources */,
+				1A570FED26B1BF4E0072F603 /* FavoritesStoryBoard.storyboard in Resources */,
+				1A3E138926B0575A00DB29CF /* LaunchScreen.storyboard in Resources */,
+				1A3E137E26B055C500DB29CF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A3E137226B055C400DB29CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A3E138B26B05CA900DB29CF /* TravelikeModel.swift in Sources */,
+				1A570FC926B164EE0072F603 /* FooterView.swift in Sources */,
+				1A570FC726B1616A0072F603 /* HeaderView.swift in Sources */,
+				1A75208226B2EE9B005BCEE1 /* MapView.swift in Sources */,
+				1A570FD426B175D50072F603 /* TitleModifier.swift in Sources */,
+				1A570FEF26B1BFBA0072F603 /* CollectionViewController.swift in Sources */,
+				1A570FDE26B19B980072F603 /* CardTransition.swift in Sources */,
+				1A75208026B2D481005BCEE1 /* FavsView.swift in Sources */,
+				1A570FD926B18FBD0072F603 /* SymbolModifier.swift in Sources */,
+				1A570FEB26B1B1020072F603 /* FavoritesData.swift in Sources */,
+				1A570FD226B1750A0072F603 /* informationView.swift in Sources */,
+				1A3E137C26B055C400DB29CF /* ContentView.swift in Sources */,
+				1A570FD726B178090072F603 /* ButtonModifier.swift in Sources */,
+				1A570FE826B1ACDA0072F603 /* DesMapView.swift in Sources */,
+				1A570FCC26B168190072F603 /* HeaderComponent.swift in Sources */,
+				1A3E137A26B055C400DB29CF /* TravelikeApp.swift in Sources */,
+				1A3E138E26B05D5100DB29CF /* TravelData.swift in Sources */,
+				1A570FE626B1A9DF0072F603 /* MapViewController.swift in Sources */,
+				1A570FF126B1C23F0072F603 /* CollectionViewCell.swift in Sources */,
+				1A3E139226B064EE00DB29CF /* CardView.swift in Sources */,
+				1A570FCE26B169160072F603 /* GuideComponent.swift in Sources */,
+				1A570FD026B16BCE0072F603 /* GuideView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1A3E138326B055C500DB29CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A3E138426B055C500DB29CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A3E138626B055C500DB29CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Travelike/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Travelike/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = barakyul.Travelike;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A3E138726B055C500DB29CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Travelike/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Travelike/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = barakyul.Travelike;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A3E137126B055C400DB29CF /* Build configuration list for PBXProject "Travelike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A3E138326B055C500DB29CF /* Debug */,
+				1A3E138426B055C500DB29CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A3E138526B055C500DB29CF /* Build configuration list for PBXNativeTarget "Travelike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A3E138626B055C500DB29CF /* Debug */,
+				1A3E138726B055C500DB29CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1A57100026B1DDF30072F603 /* XCRemoteSwiftPackageReference "ASCollectionView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apptekstudios/ASCollectionView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1A57100126B1DDF30072F603 /* ASCollectionView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1A57100026B1DDF30072F603 /* XCRemoteSwiftPackageReference "ASCollectionView" */;
+			productName = ASCollectionView;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1A3E136E26B055C400DB29CF /* Project object */;
+}
